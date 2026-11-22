@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f0f0f0 ;
+}
+.header {
+    height: 64px;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    align-items: center;
+}
+.header1 {
+    margin: 0 auto;
+    width: 990px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    gap: 92px;
+}
+.logo {
+    height: 56px;
+    width: 119px;
+    cursor: pointer;
+}
+.nav1 {
+    height: 64px;
+    width: 38.41px; 
+    background-color: white;
+    display: flex;  
+    align-items: center;
+    cursor: pointer;
+}
+.nav2 {
+    height: 64px;
+    width: 76.8047px;    
+    background-color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.nav-tag1{
+    height: 28px;
+    width: 38.41px;
+    font-size: 19.2px;
+    font-weight: 400;
+    text-align: center;
+    font-family: "Noto Sans SC", sans-serif;  
+}
+.nav-tag2{
+    height: 28px;
+    width: 76.8047px;
+    font-size: 19.2px;
+    font-weight: 400;
+    text-align: center;
+    font-family: "Noto Sans SC", sans-serif;
+}
+.nav1:hover,.nav2:hover{
+    color: red;
+    border-top-color: 4px solid red;
+}
+.search-box{
+    width: 250.5px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+}
+.search{
+    height: 34px;
+    width: 80px;
+    border: none;
+    background-color: rgb(244,67,54);
+    cursor: pointer;
+}
+input{
+    width: 170.5px;
+    height: 34px;
+    outline: none;
+    border-color: rgb(244,67,54);
+    border-width: 2px;
+}
+.img{
+    width: 47px;
+    height: 47px;
+}
+.logout{
+    width: 94px;
+    height: 34px;
+    background-color: rgb(29,192,145);
+    border: none;
+    color: #f0f0f0;
+    cursor: pointer;
+}
+.user-actions{
+    display: flex;
+    align-items: center;
+    width: 157px;
+    height: 64px;
+    gap: 16px;
+}
+.banner {
+    margin-top: 64px;
+    width: 990px;
+    height: 348px;
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+    width: 990px;
+    height: 412px;
+    gap: 38px;
+    margin: 0 auto;
+    align-items: center;
+    background-color: white;
+}
+.card {
+    width: 200px;
+    height: 348px;
+    margin: 30px auto;
+}
+.round {
+    width: 94px;
+    height: 94px;
+    border-color: rgb(29,192,145);
+    border-radius: 50%;
+    border-style: solid;
+    color: rgb(29,192,145);
+    font-size: 40px;
+    font-weight: 100;
+    height: 90px;
+    margin: 30px auto;
+    text-align: center;
+}
+ul{
+    width: 172px;
+    height: 150px;
+    margin: 0 auto;
+}
+li{
+    width: 132px;
+    height: 50px;
+    margin: 0 auto;
+}
+.title{
+    width: 80px;
+    height: 32px;
+    font-weight: 300;
+}
+.sub {
+    width: 28.8px;
+    height: 20.5px;
+    color: rgb(134,134,134);
+    font-size: 14.4px;
+    font-weight: 200;
+}
+li:hover .title,
+li:hover .sub {
+    color: red;
+}
+.tail {
+    width: 33px;
+    height: 33px;
+    border-color: rgb(29,192,145);
+    color: rgb(29,192,145);
+    border-radius: 50%;
+    margin: 30px auto;
+    border-style: solid;
+    position: relative;
+}
+.tail::before {
+    background-color: rgb(29,192,145);
+    height: 1px;
+    left: 3px;
+    top: 15px;
+    width: 24px;
+    position: absolute;
+    content: "";
+}
+.tail::after {
+    background-color: rgb(29,192,145);
+    position: absolute;
+    content: "";
+    height: 24px;
+    width: 1px;
+    top: 3px;
+    left: 15px;
+}
+.round:hover {
+    background-color: rgb(29,192,145);
+    color: white;
+}
+.hot {
+    background-color: white;
+    width: 990px;
+    height: 349.5px;
+    margin: 5px auto;
+    text-align: center;
+}
+.title1,.title3{
+    width: 144px;
+    height: 35px;
+    font-size: 24px;
+    text-align: center;
+}
+.title2,.title4{
+    color: rgb(29,192,145);
+    font-size: 13px;
+}
+.row1 {
+    display: flex;
+    margin: 3px auto;
+    justify-content: center;
+    width: 792px;
+    height: 100px;
+}
+.row2 {
+    display: flex;
+    margin: 1px auto;
+    justify-content: center;
+    width: 792px;
+    height: 100px;
+}
+.class {
+    width: 158.4px;
+    height: 100px;
+    outline-color: rgb(29,192,145);
+    outline-style: solid;
+    outline-width: 3px;
+    text-align: center;
+    align-items: center;
+    font-size: 17px;
+    z-index: auto;
+}
+.number {
+    width: 158.4px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    font-weight: 200;
+    font-size: 48px;
+    color: rgb(244,67,54);
+    text-decoration-line: underline;
+}
+.class:hover{
+    background-color: rgb(29,192,145);
+    color: white;
+}
+.guess {
+    width: 990px;
+    height: 341.5px;
+    background-color: white;
+    margin: 2px auto;
+}
+.class1,.class2,.class3,.class4 {
+    width: 160px;
+    height: 96px;
+    background-color: rgb(247,123,114);
+    color: rgb(255,255,255);
+    text-align: center;
+    z-index: auto;
+    margin: 80px auto;
+}
+.classes {
+    display: flex;
+}
+.title5 {
+    text-align: center;
+}
+.class1:hover,.class2:hover,.class3:hover,.class4:hover {
+    background-color: rgb(244,67,54);
+}
+footer {
+    width: 100%;
+    height: 112px;
+    margin: 0 auto;
+    background-color: rgb(51,51,51);
+}
+.footer {
+    display: flex;
+    width:100%;
+    height: 23px;
+    color: rgb(163,163,163);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+footer img {
+    display: block;
+    margin: 0 auto;
+}
+
+
